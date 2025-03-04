@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+
+      <div class="container">
+        <h1>Generate a <span class="green">random password</span></h1>
+        <h2><span class="red">stop</span> using an <span class="red">insecure</span> password!</h2>
+        <button class="btn" onclick="generatePassword()">Generate password</button>
+        <!-- <button class="btn" onclick="RegeneratePassword()">ReGenerate password</button> -->
+        <!-- <div id="pass-1" class="passes"></div> -->
+         <div class="answer">
+         <textarea name="pass1" id="pass-1" rows="1" cols="19"></textarea>
+         <button onclick="copyPassword1()" class="copy">Copy</button>
+        </div>
+        <div class="answer">
+         <textarea name="pass2" id="pass-2" rows="1" cols="19"></textarea>
+         <button onclick="copyPassword2()" class="copy">Copy</button>
+        </div>
+      </div>
+
+        <script src="index.js"></script>
+    </body>
+</html>
